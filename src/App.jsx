@@ -31,7 +31,7 @@ function App() {
     setShowLogin(false)
     setShowRegister(false) 
     setShowCart(false)
-  }
+  } 
 
   const Navbar = () => (
     <nav className="navbar">
