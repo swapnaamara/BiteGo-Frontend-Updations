@@ -36,7 +36,7 @@ function App() {
   const Navbar = () => (
     <nav className="navbar">
       <h1 className="logo" onClick={goHome}>BiteGo</h1>
-      <div className="nav-links">
+      <div className="nav-links"> 
         <a href="#" onClick={goHome}>Home</a>
         {!user && <a href="#" onClick={() => {setShowRegister(true); setShowCart(false); setShowLogin(false)}}>Register</a>}
         {!user && <a href="#" onClick={() => {setShowLogin(true); setShowCart(false); setShowRegister(false)}}>Login</a>}
