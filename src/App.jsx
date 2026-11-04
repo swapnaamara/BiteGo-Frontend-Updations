@@ -22,7 +22,7 @@ function App() {
     alert(item.name + " added to cart!")
   }
 
-  const removeFromCart = (index) => {
+  const removeFromCart = (index) => { 
     const newCart = cart.filter((_, i) => i !== index) 
     setCart(newCart)
   }
