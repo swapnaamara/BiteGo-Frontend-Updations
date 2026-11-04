@@ -23,7 +23,7 @@ function App() {
   }
 
   const removeFromCart = (index) => {
-    const newCart = cart.filter((_, i) => i !== index)
+    const newCart = cart.filter((_, i) => i !== index) 
     setCart(newCart)
   }
 
