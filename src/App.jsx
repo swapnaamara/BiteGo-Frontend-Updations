@@ -49,7 +49,7 @@ function App() {
     return (
       <div>
         <Navbar />
-        <div className="auth-container">
+        <div className="auth-container"> 
           <div className="auth-box">
             <h2>Register for BiteGo</h2>
             <input type="text" placeholder="Full Name" />
